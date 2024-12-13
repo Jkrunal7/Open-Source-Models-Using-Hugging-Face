@@ -1,0 +1,16 @@
+transformers
+torch>=2.0.0 # For PyTorch-based models
+accelerate>=0.21.0 # For efficient inference and distributed training
+datasets>=2.14.0 # If you use datasets from Hugging Face
+sentencepiece>=0.1.99 # For tokenization of some models like T5 or mBART
+scipy>=1.10.1 # For some metrics and utilities
+wandb>=0.15.8 # For experiment tracking
+evaluate>=0.4.0
+streamlit>=1.27.0
+numpy>=1.24.0
+pandas>=1.5.0
+ipykernel>=6.0.0
+jupyter-client>=6.0.0
+python-dotenv~=1.0.1
+gradio==4.43.0
+sentence-transformers>=2.2.0
